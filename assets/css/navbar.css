@@ -1,0 +1,29 @@
+.navbar {
+    background-color: black;
+    padding: 1%;
+    display: flex;
+}
+
+.navbar ul {
+    text-align: center;
+    list-style: none;
+}
+
+.navbar li {
+    padding: 5px;
+    display: inline-block;
+    font-size: 15pt;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+}
+
+.img-area {
+    text-align: center;
+}
+
+.img-area img {
+    width: 40px;
+}

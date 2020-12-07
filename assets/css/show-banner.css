@@ -1,0 +1,23 @@
+.show {
+    display: flex;
+    padding: 5%;
+}
+
+.frase {
+    padding: 12%;
+    text-align: center;
+    width: 60%;
+}
+
+.frase p {
+    font-size: 30pt;
+    line-height: 1.6;
+}
+
+.foto {
+    text-align: center;
+}
+
+.foto img {
+    width: 100%;
+}

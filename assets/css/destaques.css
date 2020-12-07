@@ -1,0 +1,49 @@
+.destaques {
+    background-color: black;
+    padding: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    background-color: white;
+    margin: 5%;
+    padding: 3%;
+    border-radius: 10px;
+}
+
+.img-cap {
+    text-align: center;
+}
+
+.img-cap img {
+    width: 150px;
+}
+
+.txt-cap {
+    padding: 5%;
+}
+
+.txt-cap p {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.btn-cap {
+    background-color: deeppink;
+    text-align: center;
+    padding: 8%;
+    border-radius: 5px;
+}
+
+.btn-cap a {
+    background-color: deeppink;
+    padding: 8%;
+    color: white;
+    text-decoration: none;
+}
+
+#preco {
+    font-size: 30pt;
+}
