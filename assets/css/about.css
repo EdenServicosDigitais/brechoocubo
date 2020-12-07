@@ -1,0 +1,35 @@
+.sobre {
+    padding: 10%;
+    display: flex;
+}
+
+.descript {
+    margin: 2%;
+    padding: 5%;
+}
+
+.descript p {
+    text-align: justify;
+    font-size: 25pt;
+    margin-bottom: 5%;
+}
+
+.profile {
+    margin: 2%;
+    background-color: white;
+    padding: 5%;
+    width: 40%;
+    text-align: center;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+.profile img {
+    width: 200px;
+    border-radius: 100%;
+    margin: 10%;
+}
+
+.txt-cap {
+    margin: 2%;
+}

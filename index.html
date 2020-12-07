@@ -11,18 +11,17 @@
 <body>
 
     <nav class="navbar">
-
-        <div class="img-area">
-            <img src="assets/img/logo.jpg" alt="">
-        </div>
-
-        <ul>
+        <a href="index.html" class="active">BRECHÓ O <b id="color-1">C</b><b id="color-2">U</b><b id="color-3">B</b><b id="color-4">O</b></a>
+        <ul id="menu">
             <li><a href="#">Home</a></li>
             <li><a href="#destaq">Destaques</a></li>
             <li><a href="#">Sobre</a></li>
             <li><a href="#">Contato</a></li>
-            <li><a href="#">Ver no Instagram ></a></li>
+            <li><a href="https://www.instagram.com/brechoocubo/" target="_blank">Seguir no Instagram </a></li>
         </ul>
+        <a id="btn-link" href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars">menu</i>
+        </a>
     </nav>
 
     <div class="container">
@@ -51,7 +50,26 @@
             <div class="card">
 
                 <div class="img-cap">
-                    <img src="assets/img/CRU_02-removebg-preview.png" alt="">
+                    <img src="assets/img/image_2020-11-25_214919-removebg-preview.png" alt="">
+                </div>
+
+                <div class="txt-cap">
+                    <h2>Title</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <p id="time">postado há 3 dias.</p>
+                    <h2 id="preco">R$ 60,00</h2>
+                </div>
+
+                <div class="btn-cap">
+                    <a href="https://www.instagram.com/p/CEz9Mfdh5gC/" target="_blank"> Ver no Instagram </a>
+                </div>
+
+            </div>
+
+            <div class="card">
+
+                <div class="img-cap">
+                    <img src="assets/img/image_2020-11-25_214919-removebg-preview.png" alt="">
                 </div>
 
                 <div class="txt-cap">
@@ -70,7 +88,7 @@
             <div class="card">
 
                 <div class="img-cap">
-                    <img src="assets/img/CRU_02-removebg-preview.png" alt="">
+                    <img src="assets/img/image_2020-11-25_214919-removebg-preview.png" alt="">
                 </div>
 
                 <div class="txt-cap">
@@ -89,26 +107,7 @@
             <div class="card">
 
                 <div class="img-cap">
-                    <img src="assets/img/CRU_02-removebg-preview.png" alt="">
-                </div>
-
-                <div class="txt-cap">
-                    <h2>Title</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                    <p id="time">postado há 3 dias.</p>
-                    <h2 id="preco">R$ 60,00</h2>
-                </div>
-
-                <div class="btn-cap">
-                    <a href="#"> Ver no Instagram </a>
-                </div>
-
-            </div>
-
-            <div class="card">
-
-                <div class="img-cap">
-                    <img src="assets/img/CRU_02-removebg-preview.png" alt="">
+                    <img src="assets/img/image_2020-11-25_214919-removebg-preview.png" alt="">
                 </div>
 
                 <div class="txt-cap">
@@ -127,8 +126,51 @@
 
         </div>
 
+        <div class="sobre">
+
+            <div class="descript">
+                <p>
+                    Neste domingo, vamos todos brincar e cantar na praça da fonte! traga a família e amigos para se divertir e ver a banda da cidade. a partir das 10h.
+                </p>
+                <p>
+                    Neste domingo, vamos todos brincar e cantar na praça da fonte! traga a família e amigos para se divertir e ver a banda da cidade. a partir das 10h.
+                </p>
+            </div>
+
+            <div class="profile">
+                <img src="assets/img/logo.jpg" id="logo" alt="">
+
+                <div class="txt-cap">
+                    <h2>brechó o <b id="color-1">c</b><b id="color-2">u</b><b id="color-3">b</b><b id="color-4">o</b></a>
+                    </h2>
+                    <p>são paulo - itaquera</p>
+                </div>
+
+                <div class="btn-cap">
+                    <a id="follow" href="https://www.instagram.com/brechoocubo" target="_blank"> Seguir </a>
+                </div>
+
+            </div>
+
+        </div>
+
     </div>
 
 </body>
+
+<script>
+    function myFunction() {
+
+        var x = document.getElementById("menu");
+
+        if (x.style.display === "block") {
+            x.style.display = "none";
+
+        } else {
+
+            x.style.display = "block";
+        }
+    }
+</script>
 
 </html>

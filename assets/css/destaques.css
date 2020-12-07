@@ -1,5 +1,4 @@
 .destaques {
-    background-color: black;
     padding: 5%;
     display: flex;
     flex-wrap: wrap;
@@ -11,6 +10,7 @@
     margin: 5%;
     padding: 3%;
     border-radius: 10px;
+    border: 1px solid black;
 }
 
 .img-cap {
@@ -18,7 +18,7 @@
 }
 
 .img-cap img {
-    width: 150px;
+    width: 180px;
 }
 
 .txt-cap {
@@ -45,5 +45,5 @@
 }
 
 #preco {
-    font-size: 30pt;
+    font-size: 35pt;
 }

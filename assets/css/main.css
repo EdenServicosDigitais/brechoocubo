@@ -2,6 +2,7 @@
 @import url("show-banner.css");
 @import url("destaques.css");
 @import url("responsive-settings.css");
+@import url("about.css");
 @font-face {
     font-family: "OpenSans";
     src: url("/assets/fonts/OpenSans-Regular.ttf");
@@ -22,10 +23,23 @@ img {
 }
 
 .divider-title {
-    background-color: black;
-    padding: 5%;
-    color: white;
     text-align: center;
     border-top-left-radius: 12px;
     border-top-right-radius: 12px;
+}
+
+#color-1 {
+    color: deeppink;
+}
+
+#color-2 {
+    color: slateblue;
+}
+
+#color-3 {
+    color: gold;
+}
+
+#color-4 {
+    color: deeppink;
 }
