@@ -100,4 +100,7 @@
         #lg {
             width: 60%;
         }
+        .foot li {
+            margin: 5%;
+        }
     }

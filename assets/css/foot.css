@@ -1,0 +1,35 @@
+.foot {
+    background-color: black;
+    color: white;
+    padding: 3%;
+}
+
+.foot ul {
+    text-align: center;
+    list-style: none;
+}
+
+.foot li {
+    display: inline-block;
+    padding: 2%;
+    font-size: 16pt;
+}
+
+.foot a {
+    color: white;
+    text-decoration: none;
+}
+
+#logo-foot {
+    font-size: 14pt;
+}
+
+.foot a:hover {
+    opacity: 0.5;
+}
+
+.foot h2 {
+    font-size: 25pt;
+    text-align: center;
+    margin: 3%;
+}
