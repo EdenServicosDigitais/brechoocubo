@@ -18,7 +18,7 @@
 }
 
 .img-cap img {
-    width: 180px;
+    width: 280px;
 }
 
 .txt-cap {
@@ -26,7 +26,12 @@
 }
 
 .txt-cap p {
-    margin-top: 5%;
+    padding: 0;
+    margin: 0;
+    margin: 1%;
+}
+
+.txt-cap h2 {
     margin-bottom: 5%;
 }
 
@@ -45,5 +50,5 @@
 }
 
 #preco {
-    font-size: 35pt;
+    font-size: 40pt;
 }
