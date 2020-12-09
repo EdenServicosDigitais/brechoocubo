@@ -18,7 +18,7 @@
     margin: 2%;
     background-color: white;
     padding: 5%;
-    width: 40%;
+    width: 100%;
     text-align: center;
     border-radius: 10px;
     border: 1px solid black;
@@ -30,6 +30,10 @@
     margin: 10%;
 }
 
-.txt-cap {
+.profile-desc {
+    margin: 2%;
+}
+
+.btn-cap {
     margin: 2%;
 }

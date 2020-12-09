@@ -3,6 +3,7 @@
 @import url("destaques.css");
 @import url("responsive-settings.css");
 @import url("about.css");
+@import url("foot.css");
 @font-face {
     font-family: "OpenSans";
     src: url("/assets/fonts/OpenSans-Regular.ttf");
